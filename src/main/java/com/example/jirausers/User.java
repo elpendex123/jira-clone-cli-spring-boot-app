@@ -12,7 +12,7 @@ public class User {
     public String jobTitle;
     public String department;
     public String startDate;
-    public boolean active;
+    public Boolean active;
     public String team;
     public String phone;
 
@@ -20,7 +20,7 @@ public class User {
     }
 
     public User(String userId, String email, String fullName, String jobTitle, String department, String startDate,
-            boolean active, String team, String phone) {
+            Boolean active, String team, String phone) {
         this.userId = userId;
         this.email = email;
         this.fullName = fullName;
